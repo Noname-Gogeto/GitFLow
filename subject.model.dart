@@ -10,17 +10,4 @@ class Product {
   final String? isFeatured;
 
   Product({this.id, this.name, this.description, this.price, this.image, this.category, this.rating, this.isFeatured});
-
-  factory Product.fromJson(Map<String, dynamic> json) {
-    return Product(
-      id: json['id'],
-      name: json['name'],
-      description: json['description'],
-      price: json['price'],
-      image: json['image'],
-      category: json['category'],
-      rating: json['rating'],
-      isFeatured: json['isFeatured'],
-    );
-  }
 }
