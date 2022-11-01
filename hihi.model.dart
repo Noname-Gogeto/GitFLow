@@ -1,6 +1,6 @@
 //* Student objects
 class Student {
-  String name;
+  String stuName;
   int age;
-  Student(this.name, this.age);
+  Student(this.stuName, this.age);
 }
