@@ -1,4 +1,4 @@
-//* Create product model
+//* Create product model this is important for the app to work
 class Product {
   final String? id;
   final String? name;
