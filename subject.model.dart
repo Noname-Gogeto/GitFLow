@@ -23,4 +23,9 @@ class Product {
       isFeatured: json['isFeatured'],
     );
   }
+
+  @override
+  String toString() {
+    return 'Product{id: $id, name: $name, description: $description, price: $price, image: $image, category: $category, rating: $rating, isFeatured: $isFeatured}';
+  }
 }
